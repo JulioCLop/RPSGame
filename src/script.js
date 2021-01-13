@@ -9,7 +9,7 @@ if (computerChoice < 0.34) {
 }
 var compare=function(choice1,choice2){
     if(choice1===choice2){
-        return "The result is a tie!";
+        return "It's a tie!";
     }
     else if(choice1==="rock"){
         if(choice2==="scissors"){
@@ -38,9 +38,9 @@ var compare=function(choice1,choice2){
     
 }
 
-document.getElementById("paragraphText").innerHTML = "The Computer Chose: " + computerChoice ;
+document.getElementById("paragraphText").innerHTML = "Computer Chose: " + computerChoice ;
 
 
-document.getElementById("paragraphText2").innerHTML = "You Chose: " + userChoice;
+document.getElementById("paragraphText2").innerHTML = "User Chose: " + userChoice;
 document.getElementById("paragraphText3").innerHTML =  compare(userChoice,computerChoice);
   
