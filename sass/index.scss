@@ -1,0 +1,53 @@
+
+$primary-color: #04d9ff;
+$secondary-color: #fcd12a;
+$third-color: #fa86c4;
+
+
+
+
+html{
+   
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/000/693/105/original/cartoon-rock-paper-scissors-vector-characters.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+body{
+    color: $primary-color !important;
+    text-align: center;
+}
+
+// Header
+.opacity{
+    
+    border: 4px solid $primary-color;
+    margin: 30px;
+}
+
+    
+    .header{
+        #span-r{
+            color: $third-color;
+        }
+        #span-p{
+            color: $secondary-color;
+        }
+        #span-s{
+            color: $primary-color;
+        }
+        
+    }
+
+    .row{
+
+        .column{
+            border: 5px solid $primary-color;
+        }
+        
+    }
+
+
